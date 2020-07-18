@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
+import Avatar from './Avatar';
 
 const ProfileListing = (prop) => {
 
@@ -45,11 +46,14 @@ const ProfileListing = (prop) => {
 
   return (
       <div className="container">
+        <Avatar 
+            avatar={prop.avatar}        
+        />
         <br></br>
         <form method="get" onSubmit={updateProfile}>
           <label htmlFor="fname" placeholder={prop.avatar}>Avatar: </label>
           <input type="text" placeholder={prop.avatar} ref={(elem) => avatarUpdate = elem}/><br></br><br></br>
-          <label htmlFor="fname" placeholder={prop.name}>Full name: </label>
+          <label htmlFor="fname" placeholder={prop.name}>Full Name: </label>
           <input type="text" placeholder={prop.name} ref={(elem) => nameUpdate = elem}/><br></br><br></br>
           <label htmlFor="fname" >Password: </label>
           <input type="text" placeholder="new password" ref={(elem) => passwordUpdate = elem}/><br></br><br></br>
