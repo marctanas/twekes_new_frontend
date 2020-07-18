@@ -7,6 +7,7 @@ import { Redirect } from 'react-router-dom';
 
 const HeroUnit = () => {
 
+
     const [state, setState] = useState(
         {
             label: 'Claim your $5',
@@ -36,6 +37,7 @@ const HeroUnit = () => {
                     enteredEmail: true           
                 }
             )
+
         }
     }
 

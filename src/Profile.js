@@ -26,7 +26,7 @@ const Profile = () => {
         () => {
           // only fetch profile if and when the user logs in
           if(globalState.loggedIn === true) {
-            fetch('http://localhost:8080/accounts/profile',{
+            fetch(`${process.env.REACT_APP_API_URL}accounts/profile`,{
             headers: {
                 "Content-Type": "application/json",
                 "Authorization": `Bearer ${[localStorage.getItem('jwt')]}`

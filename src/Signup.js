@@ -1,5 +1,4 @@
-import React, {useState, useContext} from 'react';
-import AppContext from './AppContext';
+import React, {useState} from 'react';
 import { Redirect } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Footer from './Footer.js';
@@ -7,9 +6,6 @@ import { validFullName, validEmail, validPassword} from './Utils';
 
 
 const Signup = () => {
-
-    const [globalState, setGlobalState] = useContext(AppContext);
-
 
     const [state, setState] = useState(
         {
@@ -129,7 +125,7 @@ const Signup = () => {
                                 <div className="input-box">
                                     <input type="text" 
                                         className="form-control"
-                                        placeholder="Enter Your Full Name"
+                                        placeholder={"Enter Your Full Name"}
                                         ref={ 
                                             (elem) => nameField = elem 
                                         }
@@ -139,7 +135,7 @@ const Signup = () => {
                                 <div className="input-box">
                                     <input type="text" 
                                         className="form-control" 
-                                        placeholder="Enter Your Email"
+                                        placeholder={"Enter Your Email"}
                                         ref={ 
                                             (elem) => emailField = elem 
                                         }

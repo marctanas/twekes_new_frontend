@@ -1,5 +1,5 @@
 export const validFullName = (fullName) => {
-    const re = /^([\w]{3,})+\s+([\w]{3,})$/;
+    const re = /^([\w]{2,})+\s+([\w]{2,})$/;
     return re.test(fullName);
 }
 

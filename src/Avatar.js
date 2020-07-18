@@ -2,10 +2,11 @@ import React from 'react';
 
 const Avatar = (prop) => {
 
+
     return(
         <div>
             <br></br>
-            <img src={prop.avatar} width="150" height="150" alt="avatar"/>
+            <img src={prop.Avatar} width="150" height="150" alt="avatar"/>
             <br></br>
         </div>
 
@@ -13,3 +14,4 @@ const Avatar = (prop) => {
 }
 
 export default Avatar;
+
