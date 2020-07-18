@@ -6,7 +6,7 @@ const Avatar = (prop) => {
     return(
         <div>
             <br></br>
-            <img src={prop.Avatar} width="150" height="150" alt="avatar"/>
+            <img src={prop.avatar} width="150" height="150" alt="avatar"/>
             <br></br>
         </div>
 
