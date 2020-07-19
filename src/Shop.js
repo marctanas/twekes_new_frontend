@@ -52,6 +52,7 @@ const Shop = () => {
         },
         [ globalState.loggedIn ]
       )
+      console.log("shop userAdmin: " , globalState.userAdmin);
 
     return (   
         <div>

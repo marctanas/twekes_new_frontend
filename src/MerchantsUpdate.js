@@ -7,7 +7,7 @@ const MerchantsUpdate = (prop) => {
   let codeUpdate;
   console.log("id update: " , idUpdate);
 
-  
+
   const updateMerchant = (e) => {
     e.preventDefault();
 
@@ -42,8 +42,8 @@ const MerchantsUpdate = (prop) => {
         )
         .then(
           (json) => console.log(json),
+          
     )
-        
       alert(prop.name , "Merchant has been updated");
   }  
 
