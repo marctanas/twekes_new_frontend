@@ -5,14 +5,20 @@ const MerchantsUpdate = (prop) => {
   let idUpdate;
   let nameUpdate;
   let codeUpdate;
+  console.log("id update: " , idUpdate);
 
-  const updateMerchant = () => {
+  
+  const updateMerchant = (e) => {
+    e.preventDefault();
 
   //   const [state, setState] = useState(
   //     {
   //         updated: false,
   //     }
   // );
+
+
+    
 
     fetch(`${process.env.REACT_APP_API_URL}merchants/update`, 
           {
@@ -47,7 +53,7 @@ const MerchantsUpdate = (prop) => {
       <div className="container">
         <br></br>
         <form method="get" onSubmit={updateMerchant}>
-          <label htmlFor="fname" placeholder={prop.id} ref={(elem) => idUpdate = elem}>Object ID: </label>
+          <label htmlFor="fname" placeholder={prop.id} ref={(elem) => idUpdate = elem} value={prop.id}>{prop.id} </label>
           <input type="text" placeholder={prop.name} ref={(elem) => nameUpdate = elem}/><br></br><br></br>
           <label htmlFor="fname" placeholder={prop.name}>Brand Name: </label>
           <input type="text" placeholder={prop.name} ref={(elem) => nameUpdate = elem}/><br></br><br></br>

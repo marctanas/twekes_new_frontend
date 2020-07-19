@@ -12,6 +12,7 @@ const Shop = () => {
     const [state, setState] = useState({ merchants: []})
 
     const logOut = () => {
+        
         setGlobalState(
             {
                 ...globalState,
