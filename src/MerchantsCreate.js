@@ -14,45 +14,50 @@ const MerchantsCreate = () => {
 
     const registerMerchant = () => {
 
-        fetch(`${process.env.REACT_APP_API_URL}merchants`, 
-        {
-            method: 'POST',
-            body: JSON.stringify(
-                {
-                    brandName: nameField.value, 
-                    discountCode: codeField.value, 
-                }
-            ),
-            headers: {
-                "Content-Type": "application/json",
-                "Authorization": `Bearer ${[localStorage.getItem('jwt')]}`
-        },
+        if (nameField.value == "" && codeField.value == ""){
+            alert("Please enter complete BrandName and DiscountCode");
         }
-        )
-        .then(
-            (result) => result.json(),
-        )
-        .then(
-            (json) => {
-                const { message } = json;
-                if(message === "Merchant has been saved") {
-                    //
-                    setState(
-                        {
-                            ...state,
-                            registered: true
-                        }
-                    )
-                } else {
-                    setState(
-                        {
-                            ...state,
-                            registered: false
-                        }
-                    )
-                }
+        else{
+            fetch(`${process.env.REACT_APP_API_URL}merchants`, 
+            {
+                method: 'POST',
+                body: JSON.stringify(
+                    {
+                        brandName: nameField.value, 
+                        discountCode: codeField.value, 
+                    }
+                ),
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": `Bearer ${[localStorage.getItem('jwt')]}`
+            },
             }
-        )
+            )
+            .then(
+                (result) => result.json(),
+            )
+            .then(
+                (json) => {
+                    const { message } = json;
+                    if(message === "Merchant has been saved") {
+                        //
+                        setState(
+                            {
+                                ...state,
+                                registered: true
+                            }
+                        )
+                    } else {
+                        setState(
+                            {
+                                ...state,
+                                registered: false
+                            }
+                        )
+                    }
+                }
+            )
+        }
     }
 
     return(
