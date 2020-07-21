@@ -7,7 +7,8 @@ const ProfileListing = (prop) => {
   let nameUpdate;
   let passwordUpdate;
 
-  const updateProfile = () => {
+  const updateProfile = (e) => {
+    e.preventDefault();
 
 
     fetch(`${process.env.REACT_APP_API_URL}accounts/update`, 

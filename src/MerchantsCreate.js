@@ -12,10 +12,11 @@ const MerchantsCreate = () => {
     let nameField;
     let codeField;
 
-    const registerMerchant = () => {
+    const registerMerchant = (e) => {
+        e.preventDefault();
 
         if (nameField.value == "" && codeField.value == ""){
-            alert("Please enter complete BrandName and DiscountCode");
+            alert("Please enter both BrandName and DiscountCode");
         }
         else{
             fetch(`${process.env.REACT_APP_API_URL}merchants`, 
@@ -57,6 +58,7 @@ const MerchantsCreate = () => {
                     }
                 }
             )
+            alert("Merchant has been created");
         }
     }
 
