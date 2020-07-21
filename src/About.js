@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link'
 import Footer from './Footer.js';
 
 
@@ -16,7 +16,7 @@ const About = () =>{
                 <nav>
                     <ul>
                         <li className="faqLink">
-                            <a href="#faq">FAQ</a>
+                            <Link to="#faq">FAQ</Link>
                         </li>
                         <li className="blogLink">
                             <Link 

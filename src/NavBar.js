@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 //import AppContext from './AppContext';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link'
 
 const NavBar = () => {
 
@@ -24,7 +25,7 @@ const NavBar = () => {
             <nav>
                 <ul>
                     <li className="howItWorksLink">
-                        <a href="#howitworks">How it Works</a>
+                        <Link to="/#howitworks">How it Works</Link>
                     </li>
                     <li className="blogLink">
                         <Link 

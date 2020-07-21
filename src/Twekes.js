@@ -12,7 +12,7 @@ function Twekes() {
   return (
     <div>
         <NavBar />
-         <HeroUnit />
+        <HeroUnit />
         <HowItWorks />
         <Benefits />
         <SampleMerchants />
