@@ -50,9 +50,13 @@ const HeroUnit = () => {
         return(
             <section className="one">
                 <div className="backgroundImage" style={{backgroundImage: `url(/img/happyshopper.jpg)`}}> </div>
-                <h1>Your rewards effortlessly accessible</h1>
-                <h3>Automatic coupons and cashback when you shop online</h3>
-                <div className="InputAddOn">
+                <h1>Your Favorite Product</h1>
+                <h1>To Your Door, For LESS</h1>
+                <h3>Let Twekes do BOTH for you – Shop and Shipping Discounts</h3>
+                <a href="/" className="btn">
+                    Add to Chrome – it’s free
+                </a>
+                {/* <div className="InputAddOn">
                     <input type="text"
                         id="the-field"
                         className="InputAddOn-field"  
@@ -67,7 +71,7 @@ const HeroUnit = () => {
                         onClick={inputField}
                         >{state.label}
                     </button>
-                </div>
+                </div> */}
             </section>
         );
     }

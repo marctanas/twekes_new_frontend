@@ -108,7 +108,9 @@ const Signup = () => {
         return(
 
         <div>
-            <div className="background-image" style={{backgroundImage: `url(/img/hero.jpg)`}}> 
+            <div className="background-image" 
+                // style={{ backgroundImage: `url(/img/hero.jpg)` }}
+                style={{ backgroundColor: `#0F6EDE` }}>
                 <section className="signup-form">
                     <div>
                         <div className="box">

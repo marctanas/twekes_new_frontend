@@ -2,8 +2,8 @@
 :root{
     --greyapple: #ecf0f1;
     --greydark: #495057;
-    --bluebackground: #227ab9;
-    --yellowhover: #ffd146;
+    --bluebackground: #0F6EDE;
+    --yellowhover: #FFD64C;
 
 }
 
@@ -48,14 +48,14 @@ a.btn{
 section{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: justify;
     padding: 60px 100px;
 }
 
 ul.grid{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
 }
 
@@ -495,7 +495,7 @@ header nav ul li:last-child{
 /* START Download Website Extension */
 
 .webextension{
-    background-color: #fff;
+    background-color: #f7f7f7;
 }
 
 .webextension a.btn {
@@ -576,7 +576,7 @@ header nav ul li:last-child{
 }
 
 .descriptionArea{
-    text-align: center;
+    text-align: justify;
     width: 80%;
     font-size: 22px;
     font-weight: 300;

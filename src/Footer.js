@@ -25,10 +25,10 @@ const Footer = () => {
                 <li onClick={scrollToTop()}><Link to="/about#faq">FAQ</Link></li>
                 <li onClick={scrollToTop()}><Link to="/legal/terms">Terms</Link></li>
                 <li onClick={scrollToTop()}><Link to="/legal/privacy">Privacy</Link></li>
-                <li onClick={scrollToTop()}><Link to="/blog">Blog</Link></li>
+                {/* <li onClick={scrollToTop()}><Link to="/blog">Blog</Link></li> */}
             </ul>
             <ul className="copyright">
-                {thisYear.getFullYear()} &copy; Twekes Technology Inc. All Rights Reserved
+                {thisYear.getFullYear()} &copy; Twekes Inc. All Rights Reserved
             </ul>
         </footer>
 

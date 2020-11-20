@@ -78,7 +78,8 @@ const Login = () => {
             <div>
                 <div
                     className="background-image"
-                    style={{ backgroundImage: `url(/img/hero.jpg)` }}>
+                    // style={{ backgroundImage: `url(/img/hero.jpg)` }}
+                    style={{ backgroundColor: `#0F6EDE` }}>
                     <section className="login-form">
                         <div>
                             <div className="box">

@@ -20,19 +20,19 @@ const NavBar = () => {
         <header>
             <h2><Link 
                 to="/">
-                <img src="/img/twekeslogo.png" width="130" height="40" alt="twekes"/>
+                <img src="/img/twekeslogo.png" width="150" height="71" alt="twekes"/>
             </Link></h2>
             <nav>
                 <ul>
                     <li className="howItWorksLink">
                         <Link to="/#howitworks">How it Works</Link>
                     </li>
-                    <li className="blogLink">
+                    {/* <li className="blogLink">
                         <Link 
                             to="/blog">
                             Blog
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="signupLink">
                         <Link 
                             to="/accounts/signup">

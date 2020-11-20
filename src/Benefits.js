@@ -7,18 +7,18 @@ const Benefits = () => {
             <ul className="grid">
                 <li>
                     <i className="fa fa-camera-retro fa-4x"></i>
-                    <h4><br/></h4>
-                    <p>Integrates seamlessly with your browser</p>
+                    <h4><br/>Shop Your Favorite Brands Globally<br/></h4>
+                    <p>We’ll connect you with the best discounts</p>
                 </li>
                 <li>
                     <i className="fas fa-globe fa-4x"></i>
-                    <h4><br/></h4>
-                    <p>Providing the best discount code to use</p>
+                    <h4><br/>Save and Earn</h4>
+                    <p>The best saving deals on the internet</p>
                 </li>
                 <li>
                     <i className="fas fa-fan fa-4x"></i>                    
-                    <h4><br/></h4>
-                    <p>No expiry to your cashback</p>
+                    <h4><br/>No More Time Lost</h4>
+                    <p>Don’t waste your time, Twekes will do it for you</p>
                 </li> 
             </ul>
         </section>

@@ -4,13 +4,13 @@ const WebExtension = () => {
     return(
         <section className="webextension">
             <h3 className="title">
-                Try Twekes in your browser
+            Try twekes while shopping online
             </h3>
-            <p>
+            {/* <p>
                 Start earning when you shop online
-            </p>
+            </p> */}
             <a href="/" className="btn">
-                Download it here
+                Add to Chrome – it’s free
             </a>
         </section>
 

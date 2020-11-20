@@ -16,7 +16,7 @@ function Twekes() {
         <HowItWorks />
         <Benefits />
         <SampleMerchants />
-        <Reviews />
+        {/* <Reviews /> */}
         <WebExtension />
         <Footer />
     </div>
