@@ -2,7 +2,7 @@ import React from 'react';
 
 const WebExtension = () => {
     return(
-        <section className="webextension">
+        <section className="webextension" style={{alignItems: `center`}}>
             <h3 className="title">
             Try twekes while shopping online
             </h3>

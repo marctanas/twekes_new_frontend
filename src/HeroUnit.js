@@ -48,7 +48,7 @@ const HeroUnit = () => {
 
     else{
         return(
-            <section className="one">
+            <section className="one" style={{alignItems: `center`}}>
                 <div className="backgroundImage" style={{backgroundImage: `url(/img/happyshopper.jpg)`}}> </div>
                 <h1>Your Favorite Product</h1>
                 <h1>To Your Door, For LESS</h1>
