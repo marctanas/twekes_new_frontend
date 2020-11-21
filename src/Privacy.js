@@ -15,12 +15,12 @@ const Privacy = () =>{
             </Link></h2>
                 <nav>
                     <ul>
-                        <li className="blogLink">
+                        {/* <li className="blogLink">
                             <Link 
                                 to="/blog">
                                     Blog
                             </Link>
-                        </li>
+                        </li> */}
                         <li className="signupLink">
                             <Link 
                                 to="/accounts/signup">
