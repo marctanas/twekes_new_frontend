@@ -6,7 +6,8 @@ const Listing = (prop) => {
 
 
   const activateMerchant = () => {
-    alert(prop.name + " has been activated. You are being redirected");
+    // alert(prop.name + " has been activated. You are being redirected");
+    alert("You are being redirected to " + prop.name + ". Open the extension to see the coupons available");
 
 
   }
@@ -14,12 +15,12 @@ const Listing = (prop) => {
     return (
         <div className="container">
             <h3>{prop.name}</h3> 
-            <p>Promo Code: <span>{prop.code}</span></p>
+            {/* <p>Promo Code: <span>{prop.code}</span></p> */}
             <div onClick={activateMerchant}>
                 <Link 
                     className="btn"
                     to="/shop">
-                    Activate
+                    Shop
                 </Link>
             </div>
             <br/>

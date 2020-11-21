@@ -49,8 +49,8 @@ const HeroUnit = () => {
     else{
         return(
             <section className="one" style={{alignItems: `center`}}>
-                <div className="backgroundImage" style={{backgroundImage: `url(/img/happyshopper.jpg)`}}> </div>
-                <h1>Your Favorite Product</h1>
+                <div className="backgroundImage" style={{backgroundImage: `url(/img/onlineshopping.jpg)`}}> </div>
+                <h1 style={{alignItems: `flex-end`}}>Your Favorite Product</h1>
                 <h1>To Your Door, For LESS</h1>
                 <h3>Let Twekes do BOTH for you – Shop and Shipping Discounts</h3>
                 <a href="/" className="btn">

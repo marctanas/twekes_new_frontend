@@ -243,7 +243,7 @@ header nav ul li:last-child{
     left: 0;
     width:100%;
     height: 100%;
-    background-size: cover;
+    background-size: 100% 100%;
     background-color: var(--bluebackground);
     z-index: -1;
 }
@@ -260,13 +260,12 @@ header nav ul li:last-child{
 }
 
 .one h1 {
-    font: bold 60px 'Open Sans', sans-serif;
+    font: bold 50px 'Open Sans', sans-serif;
     margin-bottom: 15px;
-
 }
 
 .one h3{
-    font: normal 28px 'Open Sans', sans-serif;
+    font: normal 18px 'Open Sans', sans-serif;
     margin-bottom: 40px;
 }
 
@@ -418,7 +417,7 @@ header nav ul li:last-child{
     height: 450px;
     border-radius: 3px;
     background-clip:content-box;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-color: #333; 
 }

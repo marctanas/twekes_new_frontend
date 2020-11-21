@@ -6,17 +6,17 @@ const Benefits = () => {
             <h3 className="title">Benefits</h3>
             <ul className="grid">
                 <li>
-                    <i className="fa fa-camera-retro fa-4x"></i>
+                    <i className="fa fa-shopping-cart fa-4x"></i>
                     <h4><br/>Shop Your Favorite Brands Globally<br/></h4>
                     <p>We’ll connect you with the best discounts</p>
                 </li>
                 <li>
-                    <i className="fas fa-globe fa-4x"></i>
+                    <i className="fas fa-percent fa-4x"></i>
                     <h4><br/>Save and Earn</h4>
                     <p>The best saving deals on the internet</p>
                 </li>
                 <li>
-                    <i className="fas fa-fan fa-4x"></i>                    
+                    <i className="fas fa-hourglass-start fa-4x"></i>                    
                     <h4><br/>No More Time Lost</h4>
                     <p>Don’t waste your time, Twekes will do it for you</p>
                 </li> 

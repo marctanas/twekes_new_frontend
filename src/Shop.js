@@ -59,7 +59,7 @@ const Shop = () => {
             <header>
                 <h2><Link 
                     to="/shop">
-                    <img src="/img/twekeslogo.png" width="130" height="40" alt="twekes"/>
+                    <img src="/img/twekeslogo.png" width="150" height="71" alt="twekes"/>
                 </Link></h2>
                 <nav>
                     <ul>

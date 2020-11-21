@@ -91,7 +91,7 @@ const About = () =>{
             <section className="titleArea">
                 <h3 className="title">About US</h3>
                     <p className="descriptionArea">We began Twekes because as shoppers like you we were not getting the products, deals or shipping rates we desire. Twekes will personalize your shopping experience and provide you with the best deal discounts for your favorite products. Our branding list is growing not only to cater you locally but also bring your international brands to you. All of this is done via our non-invasive browser extension listing multiple coupons while you go about filling your shopping cart. We will never charge you; we partner with brands and get a percentage of each sale. Happy Shopping <br/><br/></p>
-                    <p className="descriptionArea">If you are interested in joining our team, click here<br/><br/></p>
+                    <p className="descriptionArea">If you are interested in joining our team, click <a href="https://forms.gle/MuiJSy36QVgQrzpN9" target="_blank">here</a><br/><br/></p>
 
             </section> 
 
